@@ -10,8 +10,9 @@
  defined('CORE_PATH') ? null : define('CORE_PATH', SITE_ROOT.DS.'core');
 
  //load the config file first
- //require_once(INC_PATH.DS."config.php");
- require_once('../includes/config.php');
+// require_once(INC_PATH.DS."config.php");
+require_once('../includes/config.php');
+ //require_once('/home/vol19_2/infinityfree.com/if0_35370468/htdocs/includes/config.php');
  //core classes
- require_once("../core/post.php");
+require_once("../core/post.php");
 ?>
